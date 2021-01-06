@@ -1,19 +1,3 @@
-"""Tesla Google Scrapper
-
-Usage:
-  tesla.py <search> <pages> <processes>
-  tesla.py (-h | --help)
-
-Arguments:
-  <search>        String to be Searched
-  <pages>         Number of pages
-  <processes>     Number of parallel processes
-
-Options:
-  -h, --help     Show this screen.
-
-"""
-
 import requests,re
 from urllib.parse import unquote
 from bs4 import BeautifulSoup
